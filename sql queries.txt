@@ -1,0 +1,41 @@
+use mydbs;
+select * from location
+limit 4500;
+
+
+select source_system_type,source_system from source;
+
+select fire.Stat_cause_code,count(fire.FOD_ID) as fire_count,stat.STAT_CAUSE_DESCR from fire
+join 
+statistical_cause as stat
+ON stat.STAT_CAUSE_CODE = fire.STAT_CAUSE_CODE 
+group by Stat_cause_code
+order by fire_count DESC
+LIMIT 5;
+select fire.Stat_cause_code,count(fire.FOD_ID) as fire_count,stat.STAT_CAUSE_DESCR from fire
+join 
+statistical_cause as stat
+ON stat.STAT_CAUSE_CODE = fire.STAT_CAUSE_CODE 
+group by Stat_cause_code
+order by fire_count DESC;
+
+
+
+select count(distinct(fire.state)) from 
+fire 
+Join fire_date
+ON fire_date.DISCOVERY_DATE = fire.DISCOVERY_DATE
+where fire_date.DISCOVERY_DOY >183  AND not fire_date.DISCOVERY_DOY <= 183;
+
+select UnitType,State from nwcg
+group by state 
+Limit 2;
+
+
+
+select fire.FOD_ID ,datediff(cd.CONT_DATE,fd.DISCOVERY_DATE) as "Duration" from fire
+Join controlled_date as cd 
+ON fire.CONT_DATE = cd.CONT_DATE 
+JOIN fire_date as fd
+ON fire.DISCOVERY_DATE = fd.DISCOVERY_DATE
+where "Duration" > 2;
