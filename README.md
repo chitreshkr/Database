@@ -1,14 +1,14 @@
 # Database Project
 
 
-<h1>Contents</h1>
-Data Model	5
-Assumptions/Notes About Data Entities and Relationships	5
-Entity-Relationship Diagram	5
-Physical Database	6
-Assumptions/Notes About Data Set	6
-Screen shot of Physical Database objects	6
-Data in the Database	6
+* Contents
+* Data Model	
+* Assumptions/Notes About Data Entities and Relationships	
+Entity-Relationship Diagram
+Physical Database	
+Assumptions/Notes About Data Set	
+Screen shot of Physical Database objects	
+Data in the Database	
 SQL Queries	7
 Query 1	7
 Question	7
