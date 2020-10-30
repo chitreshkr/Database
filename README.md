@@ -4,9 +4,9 @@
 * Contents
 * Data Model	
 * Assumptions/Notes About Data Entities and Relationships	
-Entity-Relationship Diagram
-Physical Database	
-Assumptions/Notes About Data Set	
+* Entity-Relationship Diagram
+* Physical Database	
+* Assumptions/Notes About Data Set	
 Screen shot of Physical Database objects	
 Data in the Database	
 SQL Queries	7
