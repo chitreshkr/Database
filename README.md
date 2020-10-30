@@ -1,7 +1,7 @@
 # Database Project
 
 
-Contents
+<h1>Contents</h1>
 Data Model	5
 Assumptions/Notes About Data Entities and Relationships	5
 Entity-Relationship Diagram	5
