@@ -7,8 +7,6 @@
 ![ER](https://user-images.githubusercontent.com/8807772/109067169-c28a5000-76b3-11eb-9b66-b488ae7b1c4e.png)
 
 Assumptions/Notes About Data Entities and Relationships
-Include assumptions about data entities and their relationships with each other.
-Include reasons why the data model is in 3NF.
 1)	Every individual fire incident can be reported from only one major source dates
 2)	Every single location can have only one land owner and an owner can have lands at many locations
 3)	Data time stamps are irrespective of time zones and all the recorded are in same time zone
