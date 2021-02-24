@@ -39,7 +39,7 @@ Screen shot of Physical Database objects
 
 ![Physical_database](https://user-images.githubusercontent.com/8807772/109067567-4cd2b400-76b4-11eb-86ec-74e1213c650b.jpg)
 
-###Data in the Database
+### Data in the Database
 
 ![Keys](https://user-images.githubusercontent.com/8807772/109067968-dc786280-76b4-11eb-88f1-ff5632fd2882.PNG)
 
