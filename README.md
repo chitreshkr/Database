@@ -42,3 +42,4 @@ Screen shot of Physical Database objects
 ![Keys](https://user-images.githubusercontent.com/8807772/109067968-dc786280-76b4-11eb-88f1-ff5632fd2882.PNG)
 
 
+[![wakatime](https://wakatime.com/badge/user/a6d93c4e-3ff0-4e91-a87c-d03965f9c6b0/project/7f3f90bf-1ccb-4672-8906-8a89d79b7752.svg)](https://wakatime.com/badge/user/a6d93c4e-3ff0-4e91-a87c-d03965f9c6b0/project/7f3f90bf-1ccb-4672-8906-8a89d79b7752)
